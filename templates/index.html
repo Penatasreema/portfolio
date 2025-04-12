@@ -1,0 +1,105 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sreema Penta | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <header class="hero-section" data-aos="fade-down">
+    <h1 class="animate__animated animate__fadeInDown">Hi, I'm Sreemaa Penta</h1>
+    <p class="animate__animated animate__fadeInUp">Full Stack Developer & AI/ML Enthusiast</p>
+  </header>
+
+  <section class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <div class="section-box">
+      <p>I’m a B.Tech student at ANITS (2022–2026) specializing in Computer Science and Machine Learning. Currently Marketing Lead at GFG ANITS. Passionate about building intelligent full-stack applications. Active NSS volunteer and enthusiastic event organizer.</p>
+    </div>
+  </section>
+
+  <section class="skills" data-aos="zoom-in">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript (Basics)</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java (Basics)</div>
+      <div class="skill">PHP (Basics)</div>
+      <div class="skill">Designing Templates</div>
+      <div class="skill">Digital Marketing</div>
+    </div>
+  </section>
+
+  <section class="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-card" data-aos="flip-left">
+      <h3>Temple Blog Web Application</h3>
+      <p>A platform where users share blogs about temples, upload images, and browse categorized content visually.</p>
+    </div>
+    <div class="project-card" data-aos="flip-left">
+      <h3>Pawfect Match – Pet Adoption</h3>
+      <p>Online platform for connecting pets with loving homes. Streamlines adoption with detailed pet profiles.</p>
+    </div>
+    <div class="project-card" data-aos="flip-left">
+      <h3>Travel Booking Website</h3>
+      <p>South India Travel Hub – Book buses, trains, flights, and rentals with a smooth UI and customer-focused experience.</p>
+    </div>
+    <div class="project-card" data-aos="flip-left">
+      <h3>Vaibhav’s She Zone</h3>
+      <p>Women’s fashion platform featuring nightwear, dresses, and western wear that blend comfort and modern style.</p>
+    </div>
+  </section>
+
+  <section class="certifications" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <div class="section-box">
+      <ul>
+        <li>Intro to Machine Learning – Great Learning</li>
+        <li>Intro to Data Science – Cisco</li>
+        <li>Intro to AI – Infosys Springboard</li>
+        <li>Programming in Java – NPTEL</li>
+        <li>Foundation in HTML & CSS – Bitlabs</li>
+        <li>24hrs SEO-friendly Web Hackathon – Participation</li>
+        <li>AWS Cloud Computing Workshop</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="internships" data-aos="fade-up">
+    <h2>Internships</h2>
+    <div class="project-card">
+      <h3>WROGX – Digital Marketing & AI Tools</h3>
+      <p>Executed campaigns, created SEO content, and analyzed trends to boost WROGX’s online presence.</p>
+    </div>
+    <div class="project-card">
+      <h3>Edumoon – Digital Marketing & AI Tools</h3>
+      <p>Managed social media, optimized content with AI tools, and improved traffic using SEO strategies.</p>
+    </div>
+  </section>
+
+  <section class="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="section-box contact-info">
+      <p><strong>📞 Phone:</strong> +91 9121429951</p>
+      <p><strong>📧 Email:</strong> pentasreemaa@gmail.com</p>
+      <p><strong>📍 Location:</strong> Sangivalasa, Bheemunipatnam, Visakhapatnam</p>
+      <p><strong>Hackerrank:</strong> <a href="https://www.hackerrank.com/profile/pentasreemaa_221" target="_blank">HackerRank Profile</a></p>
+      <p><strong>Leetcode:</strong> <a href="https://leetcode.com/u/SreemaaPenta/" target="_blank">LeetCode Profile</a></p>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
+
+
+{% endblock %}
